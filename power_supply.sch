@@ -49,7 +49,7 @@ Comment4 ""
 $EndDescr
 Text HLabel 1400 2900 0    60   UnSpc ~ 0
 VUSB
-Text HLabel 4800 2900 2    60   UnSpc ~ 0
+Text HLabel 3450 2150 0    60   UnSpc ~ 0
 BAT+
 $Sheet
 S 2100 2700 1850 750 
@@ -69,11 +69,11 @@ F3 "Vbat" U L 4600 4200 60
 F4 "Vsup" U R 5300 4350 60 
 $EndSheet
 Wire Wire Line
-	3950 2900 4800 2900
+	3950 2900 4150 2900
+Wire Wire Line
+	4150 2150 4150 4200
 Wire Wire Line
 	1400 2900 2100 2900
-Wire Wire Line
-	4150 2900 4150 4200
 Wire Wire Line
 	4150 4200 4600 4200
 Connection ~ 4150 2900
@@ -111,4 +111,6 @@ Text HLabel 8450 4400 2    60   Input ~ 0
 ~enable_burst
 Wire Wire Line
 	8450 4400 7900 4400
+Wire Wire Line
+	3450 2150 4150 2150
 $EndSCHEMATC
