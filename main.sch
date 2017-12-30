@@ -96,8 +96,6 @@ F2 "ADC_in" I L 5450 3300 60
 F3 "Vdd" U L 5450 2850 60 
 F4 "~enable_heater" O R 6800 2850 60 
 F5 "kill_power" O R 6800 3000 60 
-F6 "power_down_warning" I L 5450 3150 60 
-F7 "~enable_burst" O R 6800 3300 60 
 $EndSheet
 $Comp
 L USB_OTG J1
@@ -114,10 +112,10 @@ NoConn ~ 1450 3050
 NoConn ~ 1450 3150
 NoConn ~ 1450 3250
 $Comp
-L Conn_01x02 J4
+L Conn_01x02 J2
 U 1 1 59D036F3
 P 2500 3200
-F 0 "J4" H 2580 3192 50  0000 L CNN
+F 0 "J2" H 2580 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 2580 3101 50  0000 L CNN
 F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 2500 3200 50  0001 C CNN
 F 3 "" H 2500 3200 50  0001 C CNN
@@ -152,12 +150,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3300 5450 3300
 Connection ~ 3000 3200
-Wire Wire Line
-	4400 3050 5200 3050
-Wire Wire Line
-	5200 3050 5200 3150
-Wire Wire Line
-	5200 3150 5450 3150
 Wire Wire Line
 	6800 3000 7100 3000
 Wire Wire Line
@@ -209,21 +201,11 @@ Connection ~ 7450 1950
 Wire Wire Line
 	7450 2500 7450 2850
 Connection ~ 7450 2850
-Wire Wire Line
-	6800 3300 6950 3300
-Wire Wire Line
-	6950 3300 6950 3600
-Wire Wire Line
-	6950 3600 4800 3600
-Wire Wire Line
-	4800 3600 4800 3200
-Wire Wire Line
-	4800 3200 4400 3200
 $Comp
-L Conn_01x02 J6
+L Conn_01x02 J3
 U 1 1 59D13F2D
 P 8300 3350
-F 0 "J6" H 8380 3342 50  0000 L CNN
+F 0 "J3" H 8380 3342 50  0000 L CNN
 F 1 "Conn_01x02" H 8380 3251 50  0000 L CNN
 F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 8300 3350 50  0001 C CNN
 F 3 "" H 8300 3350 50  0001 C CNN

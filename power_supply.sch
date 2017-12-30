@@ -103,14 +103,6 @@ Text HLabel 8450 4600 2    60   Input ~ 0
 Kill_power
 Wire Wire Line
 	8450 4600 7900 4600
-Text HLabel 8450 4500 2    60   Output ~ 0
-Power_down_warning
-Wire Wire Line
-	8450 4500 7900 4500
-Text HLabel 8450 4400 2    60   Input ~ 0
-~enable_burst
-Wire Wire Line
-	8450 4400 7900 4400
 Wire Wire Line
 	3450 2150 4150 2150
 $EndSCHEMATC
