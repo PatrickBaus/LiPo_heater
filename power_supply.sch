@@ -1,37 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-LIBS:Microchip
-LIBS:On Semiconductor
-LIBS:Linear Technology
+EESchema Schematic File Version 4
 LIBS:main-cache
 EELAYER 26 0
 EELAYER END
@@ -71,9 +38,9 @@ $EndSheet
 Wire Wire Line
 	3950 2900 4150 2900
 Wire Wire Line
-	4150 2150 4150 4200
+	4150 2150 4150 2900
 Wire Wire Line
-	1400 2900 2100 2900
+	1400 2900 1650 2900
 Wire Wire Line
 	4150 4200 4600 4200
 Connection ~ 4150 2900
@@ -90,7 +57,7 @@ F1 "boost_converter.sch" 60
 F2 "Vsup" U L 6500 4350 60 
 F3 "V+5" U R 7900 4150 60 
 F4 "Power_down_warning" O R 7900 4500 60 
-F5 "Kill_power" I R 7900 4600 60 
+F5 "~Kill_power" I R 7900 4600 60 
 F6 "~enable_burst" I R 7900 4400 60 
 $EndSheet
 Wire Wire Line
@@ -100,9 +67,13 @@ V+5
 Wire Wire Line
 	7900 4150 8450 4150
 Text HLabel 8450 4600 2    60   Input ~ 0
-Kill_power
+~Kill_power
 Wire Wire Line
 	8450 4600 7900 4600
 Wire Wire Line
 	3450 2150 4150 2150
+Wire Wire Line
+	4150 2900 4150 4200
+Wire Wire Line
+	1650 2900 2100 2900
 $EndSCHEMATC

@@ -1,37 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-LIBS:Microchip
-LIBS:On Semiconductor
-LIBS:Linear Technology
+EESchema Schematic File Version 4
 LIBS:main-cache
 EELAYER 26 0
 EELAYER END
@@ -50,7 +17,7 @@ $EndDescr
 Text HLabel 2600 3100 0    60   UnSpc ~ 0
 VUSB
 $Comp
-L R R2
+L device:R R2
 U 1 1 58AA539F
 P 4050 3400
 F 0 "R2" V 3843 3400 50  0000 C CNN
@@ -63,7 +30,7 @@ F 5 "RC0603FR-07470RL" H 4050 3400 60  0001 C CNN "MFP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L device:LED D1
 U 1 1 58AA53A7
 P 4050 3800
 F 0 "D1" H 4042 3545 50  0000 C CNN
@@ -79,7 +46,7 @@ $EndComp
 Text HLabel 7050 3100 2    60   UnSpc ~ 0
 BAT+
 $Comp
-L C C1
+L device:C C1
 U 1 1 58AA53B1
 P 2850 3350
 F 0 "C1" H 2965 3396 50  0000 L CNN
@@ -92,10 +59,10 @@ F 5 "GRM21BR61E106KA73L" H 2850 3350 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR06
 U 1 1 58AA53B8
 P 5350 3750
-F 0 "#PWR04" H 5350 3500 50  0001 C CNN
+F 0 "#PWR06" H 5350 3500 50  0001 C CNN
 F 1 "GND" H 5355 3577 50  0000 C CNN
 F 2 "" H 5350 3750 50  0000 C CNN
 F 3 "" H 5350 3750 50  0000 C CNN
@@ -103,10 +70,10 @@ F 3 "" H 5350 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR04
 U 1 1 58AA53BE
 P 2850 3600
-F 0 "#PWR05" H 2850 3350 50  0001 C CNN
+F 0 "#PWR04" H 2850 3350 50  0001 C CNN
 F 1 "GND" H 2855 3427 50  0000 C CNN
 F 2 "" H 2850 3600 50  0000 C CNN
 F 3 "" H 2850 3600 50  0000 C CNN
@@ -114,10 +81,10 @@ F 3 "" H 2850 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR08
 U 1 1 58AA53CD
 P 6700 3750
-F 0 "#PWR06" H 6700 3500 50  0001 C CNN
+F 0 "#PWR08" H 6700 3500 50  0001 C CNN
 F 1 "GND" H 6705 3577 50  0000 C CNN
 F 2 "" H 6700 3750 50  0000 C CNN
 F 3 "" H 6700 3750 50  0000 C CNN
@@ -125,7 +92,7 @@ F 3 "" H 6700 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP73831 U1
+L Microchip:MCP73831 U1
 U 1 1 58AA53DC
 P 5350 3200
 F 0 "U1" H 5350 3567 50  0000 C CNN
@@ -138,7 +105,7 @@ F 5 "MCP73831" H 5350 3200 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L device:R R4
 U 1 1 58AA53EC
 P 6050 3550
 F 0 "R4" V 5843 3550 50  0000 C CNN
@@ -151,7 +118,7 @@ F 5 "RC0603FR-072KL" H 6050 3550 60  0001 C CNN "MFP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 58AA53F5
 P 6050 3750
 F 0 "#PWR07" H 6050 3500 50  0001 C CNN
@@ -162,7 +129,7 @@ F 3 "" H 6050 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L device:R R3
 U 1 1 58AA6815
 P 4050 4700
 F 0 "R3" V 3843 4700 50  0000 C CNN
@@ -175,7 +142,7 @@ F 5 "RC0603FR-07470RL" H 4050 4700 60  0001 C CNN "MFP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D2
+L device:LED D2
 U 1 1 58AA686B
 P 4050 4300
 F 0 "D2" H 4042 4045 50  0000 C CNN
@@ -187,10 +154,10 @@ F 4 "Green LED" H 4050 4300 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR05
 U 1 1 58AA691B
 P 4050 4950
-F 0 "#PWR08" H 4050 4700 50  0001 C CNN
+F 0 "#PWR05" H 4050 4700 50  0001 C CNN
 F 1 "GND" H 4055 4777 50  0000 C CNN
 F 2 "" H 4050 4950 50  0000 C CNN
 F 3 "" H 4050 4950 50  0000 C CNN
@@ -202,7 +169,7 @@ Turns on, when\nfully charged
 Text Notes 3200 3900 0    60   ~ 0
 Turns on, when\nthe charger is\nconnected
 Wire Wire Line
-	2600 3100 4850 3100
+	2600 3100 2850 3100
 Wire Wire Line
 	2850 3100 2850 3200
 Connection ~ 2850 3100
@@ -228,7 +195,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3750 6050 3700
 Wire Wire Line
-	5850 3100 7050 3100
+	5850 3100 6700 3100
 Wire Wire Line
 	6700 3250 6700 3100
 Connection ~ 6700 3100
@@ -240,9 +207,9 @@ Connection ~ 4050 4050
 Wire Wire Line
 	4050 4050 4650 4050
 Wire Wire Line
-	4050 3950 4050 4150
+	4050 3950 4050 4050
 $Comp
-L C C2
+L device:C C2
 U 1 1 59F7E223
 P 6700 3400
 F 0 "C2" H 6815 3446 50  0000 L CNN
@@ -254,4 +221,12 @@ F 5 "GRM21BR61E106KA73L" H 6700 3400 60  0001 C CNN "MFP"
 	1    6700 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2850 3100 4050 3100
+Wire Wire Line
+	4050 3100 4850 3100
+Wire Wire Line
+	6700 3100 7050 3100
+Wire Wire Line
+	4050 4050 4050 4150
 $EndSCHEMATC
