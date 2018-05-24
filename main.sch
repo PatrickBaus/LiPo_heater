@@ -65,11 +65,11 @@ F4 "~enable_heater" O R 6800 2850 60
 F5 "~kill_power" O R 6800 3000 60 
 $EndSheet
 $Comp
-L conn:USB_OTG J1
+L Connector:USB_B_Micro J1
 U 1 1 59CFD3FA
 P 1150 3050
 F 0 "J1" H 1205 3517 50  0000 C CNN
-F 1 "USB_OTG" H 1205 3426 50  0000 C CNN
+F 1 "USB_MICRO" H 1205 3426 50  0000 C CNN
 F 2 "Custom_footprints:USB_MICRO" H 1300 3000 50  0001 C CNN
 F 3 "" H 1300 3000 50  0001 C CNN
 	1    1150 3050
@@ -79,7 +79,7 @@ NoConn ~ 1450 3050
 NoConn ~ 1450 3150
 NoConn ~ 1450 3250
 $Comp
-L conn:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 59D036F3
 P 2500 3200
 F 0 "J2" H 2580 3192 50  0000 L CNN
@@ -130,7 +130,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 3350 4400 3350
 $Comp
-L device:Q_PMOS_GSD Q1
+L Device:Q_PMOS_GSD Q1
 U 1 1 59D0E0A3
 P 7900 2850
 F 0 "Q1" H 8106 2896 50  0000 L CNN
@@ -154,7 +154,7 @@ Wire Wire Line
 	8000 1950 8000 2650
 Connection ~ 5000 2850
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 59D0E311
 P 7450 2350
 F 0 "R1" H 7520 2396 50  0000 L CNN
@@ -173,7 +173,7 @@ Wire Wire Line
 	7450 2500 7450 2850
 Connection ~ 7450 2850
 $Comp
-L conn:Conn_01x02 J3
+L Connector_Generic:Conn_01x02 J3
 U 1 1 59D13F2D
 P 8300 3350
 F 0 "J3" H 8380 3342 50  0000 L CNN
@@ -208,4 +208,15 @@ Wire Wire Line
 	7450 2850 7700 2850
 Wire Wire Line
 	1150 3500 1150 3600
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5B09E787
+P 9750 5400
+F 0 "LOGO1" H 9750 5675 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9750 5175 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_7.5x8mm_SilkScreen" H 9750 5400 50  0001 C CNN
+F 3 "~" H 9750 5400 50  0001 C CNN
+	1    9750 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

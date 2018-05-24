@@ -23,7 +23,7 @@ Vsup
 Wire Wire Line
 	4300 3100 3650 3100
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 58AA6169
 P 4500 3650
 F 0 "R5" H 4570 3696 50  0000 L CNN

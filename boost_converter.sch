@@ -30,7 +30,7 @@ $EndComp
 Text HLabel 2000 2650 0    60   UnSpc ~ 0
 Vsup
 $Comp
-L device:C C3
+L Device:C C3
 U 1 1 59D07029
 P 3300 4300
 F 0 "C3" H 3415 4346 50  0000 L CNN
@@ -54,7 +54,7 @@ F 3 "" H 3300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW1
+L Switch:SW_Push SW1
 U 1 1 59D0729E
 P 4100 4750
 F 0 "SW1" V 4146 4702 50  0000 R CNN
@@ -78,7 +78,7 @@ F 3 "" H 4100 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L Device:C C5
 U 1 1 59D073A5
 P 4700 5050
 F 0 "C5" H 4815 5096 50  0000 L CNN
@@ -137,7 +137,7 @@ F 3 "" H 3850 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 59D07A41
 P 2300 3800
 F 0 "R6" H 2370 3846 50  0000 L CNN
@@ -150,7 +150,7 @@ F 5 "RC0603FR-071KL" H 2300 3800 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 59D08F18
 P 5100 2300
 F 0 "R8" H 5170 2346 50  0000 L CNN
@@ -200,7 +200,7 @@ $EndComp
 Text HLabel 9550 1750 2    60   UnSpc ~ 0
 V+5
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 59D096F1
 P 7750 1950
 F 0 "R12" H 7820 1996 50  0000 L CNN
@@ -213,7 +213,7 @@ F 5 "RC0603FR-071M1L" H 7750 1950 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 59D09D45
 P 7350 1950
 F 0 "R11" H 7420 1996 50  0000 L CNN
@@ -226,7 +226,7 @@ F 5 "RR0816P-2262-D-35C" H 7350 1950 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L Device:C C7
 U 1 1 59D09F1D
 P 7350 2300
 F 0 "C7" H 7465 2346 50  0000 L CNN
@@ -239,7 +239,7 @@ F 5 "C0603C180J5GACTU" H 7350 2300 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 59D0A192
 P 6850 2750
 F 0 "R10" H 6920 2796 50  0000 L CNN
@@ -252,7 +252,7 @@ F 5 "RR0816P-154-D" H 6850 2750 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L Device:C C6
 U 1 1 59D0A27C
 P 6850 2350
 F 0 "C6" H 6965 2396 50  0000 L CNN
@@ -328,7 +328,7 @@ F 3 "" H 6850 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L1
+L Device:L L1
 U 1 1 59D0A787
 P 5750 1150
 F 0 "L1" V 5940 1150 50  0000 C CNN
@@ -351,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1150 5150 1650
 $Comp
-L device:C C4
+L Device:C C4
 U 1 1 59D0AC39
 P 3550 2000
 F 0 "C4" H 3665 2046 50  0000 L CNN
@@ -379,7 +379,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1850 3550 1750
 $Comp
-L device:C C8
+L Device:C C8
 U 1 1 59D0AF6C
 P 8300 2000
 F 0 "C8" H 8415 2046 50  0000 L CNN
@@ -428,7 +428,7 @@ Connection ~ 4850 1950
 Wire Wire Line
 	4050 2600 4050 2700
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5A46F9EB
 P 4050 2450
 F 0 "R7" H 4120 2496 50  0000 L CNN
@@ -460,7 +460,7 @@ Connection ~ 9450 1750
 Wire Wire Line
 	9450 1750 9550 1750
 Wire Wire Line
-	5950 4050 5950 4150
+	5950 3950 5950 4150
 Connection ~ 5950 4150
 Wire Wire Line
 	5950 4150 5400 4150
@@ -489,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2500 6850 2550
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5AAEC85B
 P 6550 2050
 F 0 "R9" V 6343 2050 50  0000 C CNN
@@ -533,7 +533,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 1750 8300 1750
 $Comp
-L device:C C9
+L Device:C C9
 U 1 1 5AB03DE0
 P 8750 2000
 F 0 "C9" H 8865 2046 50  0000 L CNN
@@ -585,8 +585,6 @@ Wire Wire Line
 	4400 2250 4400 1950
 Wire Wire Line
 	4400 1950 4850 1950
-Wire Wire Line
-	4050 2250 4050 2200
 Connection ~ 4050 2250
 Wire Notes Line
 	3850 1600 4350 1600
@@ -597,45 +595,47 @@ Wire Notes Line
 Wire Notes Line
 	3850 2950 3850 1600
 Text Notes 3800 1500 0    50   ~ 0
-Optional:\nClose J4 for debugging\nto always enable the DC/DC\nconverter
-$Comp
-L conn:GS2 J4
-U 1 1 5AB17422
-P 4050 2000
-F 0 "J4" H 4118 2046 50  0000 L CNN
-F 1 "GS2" H 4118 1955 50  0000 L CNN
-F 2 "Custom_footprints:jumper_solder_small" V 4124 2000 50  0001 C CNN
-F 3 "" H 4050 2000 50  0001 C CNN
-	1    4050 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:GS2 J5
-U 1 1 5AB20F4D
-P 5950 3850
-F 0 "J5" H 6018 3896 50  0000 L CNN
-F 1 "GS2" H 6018 3805 50  0000 L CNN
-F 2 "Custom_footprints:jumper_solder_small" V 6024 3850 50  0001 C CNN
-F 3 "" H 5950 3850 50  0001 C CNN
-	1    5950 3850
-	1    0    0    -1  
-$EndComp
-Text Notes 6350 3950 0    50   ~ 0
-Optional:\nClose J5 for debugging\nto keep the DC/DC converter enabled
-$Comp
-L conn:Conn_01x01 J8
-U 1 1 5AAF1D34
-P 9100 1400
-F 0 "J8" V 9066 1312 50  0000 R CNN
-F 1 "Conn_01x01" V 8975 1312 50  0000 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9100 1400 50  0001 C CNN
-F 3 "~" H 9100 1400 50  0001 C CNN
-	1    9100 1400
-	0    -1   -1   0   
-$EndComp
+Optional:\nClose JP1 for debugging\nto always enable the DC/DC\nconverter
+Text Notes 6250 3750 0    50   ~ 0
+Optional:\nClose JP2 for debugging\nto keep the DC/DC converter enabled
 Wire Wire Line
 	9100 1600 9100 1750
 Connection ~ 9100 1750
 Wire Wire Line
 	9100 1750 9450 1750
+Wire Wire Line
+	4050 2100 4050 2250
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5B07240D
+P 4050 1950
+F 0 "JP1" V 4004 2018 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 4095 2018 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4050 1950 50  0001 C CNN
+F 3 "~" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5B0731E9
+P 5950 3800
+F 0 "JP2" V 5904 3868 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 5995 3868 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5950 3800 50  0001 C CNN
+F 3 "~" H 5950 3800 50  0001 C CNN
+	1    5950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP1
+U 1 1 5B075D2B
+P 9100 1600
+F 0 "TP1" H 9158 1720 50  0000 L CNN
+F 1 "Test_Point" H 9158 1629 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9300 1600 50  0001 C CNN
+F 3 "~" H 9300 1600 50  0001 C CNN
+	1    9100 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
