@@ -56,9 +56,7 @@ F0 "DC/DC boost converter" 60
 F1 "boost_converter.sch" 60
 F2 "Vsup" U L 6500 4350 60 
 F3 "V+5" U R 7900 4150 60 
-F4 "Power_down_warning" O R 7900 4500 60 
-F5 "~Kill_power" I R 7900 4600 60 
-F6 "~enable_burst" I R 7900 4400 60 
+F4 "~Kill_power" I R 7900 4600 60 
 $EndSheet
 Wire Wire Line
 	5300 4350 6500 4350
