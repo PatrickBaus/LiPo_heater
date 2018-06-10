@@ -1,39 +1,40 @@
-"Source:","/home/maat/Documents/Alex Dampfegenerator/main.sch"
-"Date:","2017-12-30T04:38:09 CET"
-"Tool:","Eeschema (2017-06-16 revision 2018d4894)-master"
-"Generator:","/home/maat/Documents/Uni/Physik/Phd/DgLock/circuits/KiCAD/scripts/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","47"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C2, ","2","10u","GRM21BR61E106KA73L","Capacitors_SMD:C_0805","Unpolarized capacitor","Murata"
-"C3, C7, C6, ","3","10n","GRM1885C1H103JA01D","Capacitors_SMD:C_0603","Unpolarized capacitor","Murata"
-"C4, ","1","2.2u","GRM188R61E225KA12D","Capacitors_SMD:C_0603","Unpolarized capacitor","Murata"
-"C5, C13, C12, C14, ","4","100n","GRM188R71H104KA93D","Capacitors_SMD:C_0603","Unpolarized capacitor","Murata"
-"C8, ","1","560p","GCM1885C2A561JA16D","Capacitors_SMD:C_0603","Unpolarized capacitor","Murata"
-"C9, C10, ","2","10p","GCM1885C1H100FA16D","Capacitors_SMD:C_0603","Unpolarized capacitor","Murata"
-"C11, ","1","22u","GRM31CR61E226KE15K","Capacitors_SMD:C_1206","Unpolarized capacitor","Murata"
-"D1, ","1","Red LED","AP2012SRCPRV","LEDs:LED_0805","LED generic","Kingbright"
-"D2, ","1","Green LED","","LEDs:LED_0805","LED generic",""
-"J1, ","1","USB_OTG","","Custom_footprints:USB_MICRO","USB mini/micro connector",""
-"J2, J3, J4, ","3","Conn_01x02","B2B-PH-K-S(LF)(SN)","Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight","Generic connector, single row, 01x02","JST"
-"J5, ","1","AVR-ISP-6","","Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm","Standard IDC6 Male Connector, ATMEL ISP 6pin",""
-"L1, ","1","22u","MSS7341-223MLD","Custom_footprints:Coilcraft_MSS7341","Inductor","Coilcraft"
-"Q1, ","1","DMP1045U","DMP1045U","TO_SOT_Packages_SMD:SOT-23","Transistor P-MOSFET with substrate diode (general)","Diodes Inc."
-"Q2, ","1","NTLJF3117P","NTLJF3117PT1G","Custom_footprints:DFN-6-2EP_2x2mm_Pitch0.65mm","-20 V, -4.1 A, P-Channel, with 2.0 A Schottky Barrier Diode","On Semiconductor"
-"R1, R17, ","2","10k","RC0603JR-0710KL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R2, R3, R16, ","3","470","RC0603FR-07470RL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R4, ","1","2k","RC0603FR-072KL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R5, R8, ","2","100k","RC0603JR-07100KL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R6, R14, ","2","1k","RC0603FR-071KL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R7, ","1","442k","RT0603DRE07442KL","Resistors_SMD:R_0603","Resistor","Yageo"
-"R9, ","1","124k","RR0816P-1243-D-10D","Resistors_SMD:R_0603","Resistor","Susumu"
-"R10, ","1","133k","RR0816P-1333-D-13D","Resistors_SMD:R_0603","Resistor","Susumu"
-"R11, ","1","33k","RR0816P-333-D","Resistors_SMD:R_0603","Resistor","Susumu"
-"R12, ","1","1M","RC0603FR-101ML","Resistors_SMD:R_0603","Resistor","Yageo"
-"R13, ","1","324k","RR0816P-3243-D-50D","Resistors_SMD:R_0603","Resistor","Susumu"
-"R15, ","1","4.7k","RC0603FR-074K7L","Resistors_SMD:R_0603","Resistor","Yageo"
-"SW1, ","1","SW_Push","PTS645VL31-2 LFS","Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS","Push button switch, generic, two pins","C&K Components"
-"SW2, ","1","SW_SPDT","OS102011MA1QN1C","Buttons_Switches_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled","Switch, single pole double throw","C&K Components"
-"U1, ","1","MCP73831","MCP73831","TO_SOT_Packages_SMD:SOT-23-5","USB-Powered Li-Ion/Li-Polymer Charger","Microchip"
-"U2, ","1","LTC2955-1(DFN)","LTC2955CDDB-1","Housings_DFN_QFN:DFN-10-1EP_2x3mm_Pitch0.5mm","Pushbutton On/Off Controller with Automatic Turn-On","Linear Technology"
-"U3, ","1","LTC3458","LTC3458EDE","Housings_DFN_QFN:DFN-12-1EP_3x4mm_Pitch0.5mm","1.4A, 1.5MHz Synchronous Step-Up DC/DC Converter with Output Disconnect","Linear Technology"
-"U4, ","1","ATTINY13","ATTINY13A-SS7","Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm","SO8, 1k Flash, 64B SRAM, 64B EEPROM, Debug Wire","Microchip Technology"
+Date:,2018-06-10T04:58:47 CEST,,,,,
+Tool:,Eeschema (5.0.0-rc2-72-ge4a6f2e52),,,,,
+Component Count:,53,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
+"C1, C2, ",2,10u,GRM21BR61E106KA73L,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,Murata
+"C3, ",1,10n,GRM1885C1H103JA01D,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,Murata
+"C4, C8, C9, ",3,47u,GRM21BR61A476ME15L,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,Murata
+"C5, C11, C10, C12, ",4,100n,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,Murata
+"C6, ",1,200p,C0603C201K5GACTU,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,Kemet
+"C7, ",1,18p,C0603C180J5GACTU,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,Kemet
+"D1, ",1,Red LED,AP2012SRCPRV,LED_SMD:LED_0805_2012Metric,LED generic,Kingbright
+"D2, ",1,Green LED,AP2012SGD3,LED_SMD:LED_0805_2012Metric,LED generic,Kingbright
+"D3, ",1,LED,APT2012VBC/D,LED_SMD:LED_0805_2012Metric,LED generic,Kingbright
+"J1, ",1,USB_MICRO,,Custom_footprints:USB_MICRO,USB Micro Type B connector,
+"J2, J3, J6, ",3,Conn_01x02,B2B-PH-K-S(LF)(SN),Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",JST
+"J7, ",1,AVR-ISP-6,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,Atmel 6-pin ISP connector,
+"JP1, JP2, ",2,SolderJumper_2_Open,,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,"Solder Jumper, 2-pole, open",
+"L1, ",1,22u,MSS7341-223MLD,Custom_footprints:Coilcraft_MSS7341,Inductor,Coilcraft
+"LOGO1, ",1,Logo_Open_Hardware_Small,,Symbol:OSHW-Logo_7.5x8mm_SilkScreen,small Open Hardware Logo,
+"Q1, ",1,DMP1045U,DMP1045U,Package_TO_SOT_SMD:SOT-23,Transistor P-MOSFET with substrate diode (general),Diodes Inc.
+"Q2, ",1,NTLJF3117P,NTLJF3117PT1G,Custom_footprints:DFN-6-2EP_2x2mm_Pitch0.65mm,"-20 V, -4.1 A, P-Channel, with 2.0 A Schottky Barrier Diode",On Semiconductor
+"Q3, ",1,MMBT3904,"MMBT3904,215",Package_TO_SOT_SMD:SOT-23,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",Nexperia
+"R1, R16, ",2,10k,RC0603JR-0710KL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R2, R15, ",2,470,RC0603FR-07470RL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R3, R6, R19, R13, ",4,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R4, ",1,2k,RC0603FR-072KL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R5, R7, ",2,100k,RC0603JR-07100KL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R8, ",1,332k,RC0603FR-07332KL,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R9, ",1,33k,RR0816P-333-D,Resistor_SMD:R_0603_1608Metric,Resistor,Susumu
+"R10, ",1,150k,RR0816P-154-D,Resistor_SMD:R_0603_1608Metric,Resistor,Susumu
+"R11, ",1,22.6k,RR0816P-2262-D-35C,Resistor_SMD:R_0603_1608Metric,Resistor,Susumu
+"R12, ",1,1.1M,RC0603FR-071M1L,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"R14, R17, R18, ",3,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,Resistor,Yageo
+"SW1, ",1,SW_Push,PTS645VL31-2 LFS,Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS,"Push button switch, generic, two pins",C&K Components
+"SW2, ",1,SW_SPDT,OS102011MA1QN1C,Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled,"Switch, single pole double throw",C&K Components
+"TP1, ",1,Test_Point,,TestPoint:TestPoint_Pad_D1.5mm,test point,
+"U1, ",1,MCP73831,MCP73831,Package_TO_SOT_SMD:SOT-23-5,USB-Powered Li-Ion/Li-Polymer Charger,Microchip
+"U2, ",1,LTC2955-1(DFN),LTC2955CDDB-1,Package_DFN_QFN:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm,Pushbutton On/Off Controller with Automatic Turn-On,Linear Technology
+"U3, ",1,LTC3536,LTC3536EDD,Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm,"1A Low Noise, Buck-Boost DC/DC Converter",Linear Technology
+"U4, ",1,ATtiny13-20SSU,ATtiny13-20SSU,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,"10MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, SOIC-8",Atmel

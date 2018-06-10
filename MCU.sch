@@ -388,6 +388,8 @@ F 0 "U4" H 4620 3346 50  0000 R CNN
 F 1 "ATtiny13-20SSU" H 4620 3255 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5150 3300 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf" H 5150 3300 50  0001 C CNN
+F 4 "Atmel" H 5150 3300 50  0001 C CNN "MFN"
+F 5 "ATtiny13-20SSU" H 5150 3300 50  0001 C CNN "MFP"
 	1    5150 3300
 	1    0    0    -1  
 $EndComp
